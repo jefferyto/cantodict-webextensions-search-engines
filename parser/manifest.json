@@ -1,6 +1,6 @@
 {
   "manifest_version": 2,
-  "name": "CantoDict Parser Search Engine",
+  "name": "CantoDict Parser",
   "description": "Adds a search engine that translates a short Chinese passage (up to 250 characters) into English using the CantoDict Parser (http://www.cantonese.sheik.co.uk/dictionary/parser/).",
   "author": "Jeffery To",
   "homepage_url": "https://github.com/jefferyto/cantodict-webextensions-search-engines",
@@ -8,7 +8,7 @@
 
   "browser_specific_settings": {
     "gecko": {
-      "strict_min_version": "55"
+      "strict_min_version": "65.0"
     }
   },
 

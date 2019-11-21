@@ -1,14 +1,14 @@
 {
   "manifest_version": 2,
-  "name": "CantoDict Chinese Word Search Engine",
-  "description": "Adds a search engine that searches CantoDict (http://www.cantonese.sheik.co.uk/dictionary/) for an Chinese word.",
+  "name": "CantoDict Chinese Word Search",
+  "description": "Adds a search engine that searches CantoDict (http://www.cantonese.sheik.co.uk/dictionary/) for a Chinese word.",
   "author": "Jeffery To",
   "homepage_url": "https://github.com/jefferyto/cantodict-webextensions-search-engines",
   "version": "1.0",
 
   "browser_specific_settings": {
     "gecko": {
-      "strict_min_version": "55"
+      "strict_min_version": "65.0"
     }
   },
 
