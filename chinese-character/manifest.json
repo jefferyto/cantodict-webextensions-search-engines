@@ -1,0 +1,25 @@
+{
+  "manifest_version": 2,
+  "name": "CantoDict Chinese Character Search Engine",
+  "description": "Adds a search engine that searches CantoDict (http://www.cantonese.sheik.co.uk/dictionary/) for an Chinese character.",
+  "author": "Jeffery To",
+  "homepage_url": "https://github.com/jefferyto/cantodict-webextensions-search-engines",
+  "version": "1.0",
+
+  "browser_specific_settings": {
+    "gecko": {
+      "strict_min_version": "55"
+    }
+  },
+
+  "chrome_settings_overrides": {
+    "search_provider": {
+      "name": "CantoDict (Chinese character)",
+      "search_url": "https://www.cantonese.sheik.co.uk/scripts/wordsearch.php?level=0&sourceid=Mozilla-search",
+      "is_default": false,
+      "encoding": "UTF-8",
+      "favicon_url": "http://www.cantodict.com/favicon.ico",
+      "search_url_post_params": "searchsubmit=search&SEARCHTYPE=2&TEXT={searchTerms}"
+    }
+  }
+}
